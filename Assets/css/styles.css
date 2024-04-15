@@ -2,61 +2,11 @@
     height: 600px; /* ou a altura desejada */
   }
 /* Estilo para o cabeçalho */
-h1 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 20px;
+.container {
+  width: 60%; /* Define a largura do container como 70% da largura da tela */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  text-align: center; /* Centraliza o texto dentro do container */
 }
-
-/* Estilo para o rótulo do seletor de eventos */
-label {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-/* Estilo para o seletor de eventos */
-#evento {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-
-/* Estilo para o campo de seleção de serviços adicionais */
-fieldset {
-  border: none;
-  margin-bottom: 20px;
-}
-
-/* Estilo para a legenda do campo de seleção de serviços adicionais */
-legend {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-/* Estilo para os rótulos e caixas de seleção dos serviços adicionais */
-label {
-  font-size: 14px;
-  color: #666;
-  display: block;
-  margin-bottom: 10px;
-}
-
-input[type="checkbox"] {
-  margin-right: 5px;
-}
-
-/* Estilo para o parágrafo do total do orçamento */
-p {
-  font-size: 18px;
-  color: #333;
-}
-
-/* Estilo para o total do orçamento */
-#total {
-  font-weight: bold;
-  color: #ff4500; /* cor laranja */
+.text-justify {
+  text-align: left; /* Alinha o texto à esquerda dentro do container */
 }
